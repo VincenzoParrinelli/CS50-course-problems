@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const contactMeBtn = document.querySelector(".content-container__contact-me")
+
+            contactMeBtn.addEventListener("click", () => {
+                alert("Service Unavailable")
+            })
+        })
+
+
+    </script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Homepage Project</title>
+</head>
+
+<!-- Design idea from image: https://www.google.it/search?q=simple+homepage+&tbm=isch&ved=2ahUKEwjZ84L89MT8AhWR76QKHcMJAwwQ2-cCegQIABAA&oq=simple+homepage+&gs_lcp=CgNpbWcQAzIECCMQJzIHCAAQgAQQEzIHCAAQgAQQEzIHCAAQgAQQEzIHCAAQgAQQEzIGCAAQHhATMggIABAFEB4QEzIICAAQCBAeEBMyCAgAEAgQHhATMggIABAIEB4QEzoICAAQBxAeEBNQzAdY4QhghwpoAHAAeACAAWKIAZQCkgEBM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=v3_BY5mYApHfkwXDk4xg&bih=722&biw=1536#imgrc=GsjPupnlvEfx0M -->
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container ">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-around " id="navbarNav">
+                <a class="navbar-brand nav-item-custom" id="john-doe-nav-item" href="#">JOHN DOE</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-item-custom" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link nav-item-custom" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-item-custom" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-container">
+
+        <h1 class="content-container__name">JOHN DOE</h1>
+        <h2 class="content-container__profession">WEB DESIGNER</h2>
+
+        <p class="content-container__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed
+            laoreet lectus. Vivamus accumsan ante non consequat placerat. Suspendisse vel sem a tellus posuere
+            lacinia et a ligula. Nullam viverra augue ac magna porttitor, vel euismod turpis rhoncus. In ac.
+        </p>
+
+        <button class="content-container__contact-me">Contact Me</button>
+    </div>
+</body>
+
+</html>

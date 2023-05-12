@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <table class="index">
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+
+        {% if transactions is defined %}
+
+        {% for transaction in transactions %}
+
+        <tr>
+            <td>{{ transaction.symbol }}</td>
+            <td>{{ transaction.name }}</td>
+            <td>{{ transaction.shares }}</td>
+            <td>{{ transaction.price | usd }}</td>
+            <td>{{ transaction.total | usd }}</td>
+        </tr>
+
+        {% endfor %}
+
+        {% endif %}
+
+    </table>
+
+{% if transactions is defined %}
+
+<p class="index__user-cash">Cash <span class="index__user-cash-value">{{ transactions[0].cash | usd }}</span> </p>
+
+{% endif %}
+
+{% if total is defined %}
+
+<p class="index__user-total">TOTAL <span class="index__user-total-value">{{ total | usd }}</span></p>
+
+{% endif %}
+
+{% endblock %}

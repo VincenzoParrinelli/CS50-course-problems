@@ -1,0 +1,63 @@
+
++----+--------------+-----------------------------------------+---------------+----+-------------------+------------------------+------+-------+-----+------+--------+
+| id | abbreviation |                full_name                |     city      | id | origin_airport_id | destination_airport_id | year | month | day | hour | minute |
++----+--------------+-----------------------------------------+---------------+----+-------------------+------------------------+------+-------+-----+------+--------+
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 1  | 8                 | 7                      | 2021 | 7     | 28  | 17   | 50     |
+| 2  | PEK          | Beijing Capital International Airport   | Beijing       | 2  | 2                 | 8                      | 2021 | 7     | 30  | 12   | 44     |
+| 1  | ORD          | O'Hare International Airport            | Chicago       | 3  | 1                 | 8                      | 2021 | 7     | 26  | 13   | 56     |
+| 1  | ORD          | O'Hare International Airport            | Chicago       | 4  | 1                 | 8                      | 2021 | 7     | 28  | 9    | 28     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 5  | 8                 | 3                      | 2021 | 7     | 27  | 11   | 45     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 6  | 8                 | 5                      | 2021 | 7     | 28  | 13   | 49     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 7  | 8                 | 1                      | 2021 | 7     | 30  | 18   | 5      |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 8  | 8                 | 2                      | 2021 | 7     | 30  | 20   | 56     |
+| 2  | PEK          | Beijing Capital International Airport   | Beijing       | 9  | 2                 | 8                      | 2021 | 7     | 27  | 16   | 48     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 10 | 8                 | 4                      | 2021 | 7     | 30  | 13   | 55     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 11 | 8                 | 12                     | 2021 | 7     | 30  | 13   | 7      |
+| 2  | PEK          | Beijing Capital International Airport   | Beijing       | 12 | 2                 | 8                      | 2021 | 7     | 30  | 18   | 57     |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   | 13 | 3                 | 8                      | 2021 | 7     | 26  | 15   | 37     |
+| 5  | DFS          | Dallas/Fort Worth International Airport | Dallas        | 14 | 5                 | 8                      | 2021 | 7     | 26  | 12   | 8      |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 15 | 8                 | 1                      | 2021 | 7     | 27  | 7    | 54     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 16 | 8                 | 2                      | 2021 | 7     | 26  | 20   | 44     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 17 | 8                 | 4                      | 2021 | 7     | 28  | 20   | 16     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 18 | 8                 | 6                      | 2021 | 7     | 29  | 16   | 0      |
+| 2  | PEK          | Beijing Capital International Airport   | Beijing       | 19 | 2                 | 8                      | 2021 | 7     | 28  | 21   | 15     |
+| 6  | BOS          | Logan International Airport             | Boston        | 20 | 6                 | 8                      | 2021 | 7     | 28  | 15   | 22     |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   | 21 | 3                 | 8                      | 2021 | 7     | 26  | 17   | 58     |
+| 1  | ORD          | O'Hare International Airport            | Chicago       | 22 | 1                 | 8                      | 2021 | 7     | 28  | 12   | 51     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 23 | 8                 | 11                     | 2021 | 7     | 29  | 12   | 15     |
+| 7  | DXB          | Dubai International Airport             | Dubai         | 24 | 7                 | 8                      | 2021 | 7     | 30  | 16   | 27     |
+| 5  | DFS          | Dallas/Fort Worth International Airport | Dallas        | 25 | 5                 | 8                      | 2021 | 7     | 27  | 14   | 33     |
+| 2  | PEK          | Beijing Capital International Airport   | Beijing       | 26 | 2                 | 8                      | 2021 | 7     | 27  | 13   | 32     |
+| 5  | DFS          | Dallas/Fort Worth International Airport | Dallas        | 27 | 5                 | 8                      | 2021 | 7     | 28  | 8    | 35     |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   | 28 | 3                 | 8                      | 2021 | 7     | 26  | 22   | 49     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 29 | 8                 | 11                     | 2021 | 7     | 27  | 14   | 48     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 30 | 8                 | 1                      | 2021 | 7     | 26  | 7    | 16     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 31 | 8                 | 3                      | 2021 | 7     | 30  | 20   | 21     |
+| 5  | DFS          | Dallas/Fort Worth International Airport | Dallas        | 32 | 5                 | 8                      | 2021 | 7     | 27  | 19   | 20     |
+| 6  | BOS          | Logan International Airport             | Boston        | 33 | 6                 | 8                      | 2021 | 7     | 28  | 17   | 58     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 34 | 8                 | 5                      | 2021 | 7     | 28  | 17   | 20     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 35 | 8                 | 4                      | 2021 | 7     | 28  | 16   | 16     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 36 | 8                 | 4                      | 2021 | 7     | 29  | 8    | 20     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 37 | 8                 | 3                      | 2021 | 7     | 27  | 7    | 37     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 38 | 8                 | 6                      | 2021 | 7     | 26  | 14   | 35     |
+| 5  | DFS          | Dallas/Fort Worth International Airport | Dallas        | 39 | 5                 | 8                      | 2021 | 7     | 27  | 22   | 37     |
+| 7  | DXB          | Dubai International Airport             | Dubai         | 40 | 7                 | 8                      | 2021 | 7     | 28  | 13   | 47     |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   | 41 | 3                 | 8                      | 2021 | 7     | 28  | 14   | 14     |
+| 4  | LGA          | LaGuardia Airport                       | New York City | 42 | 4                 | 8                      | 2021 | 7     | 30  | 13   | 22     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 43 | 8                 | 1                      | 2021 | 7     | 29  | 9    | 30     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 44 | 8                 | 3                      | 2021 | 7     | 30  | 13   | 19     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 45 | 8                 | 2                      | 2021 | 7     | 27  | 13   | 35     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 46 | 8                 | 10                     | 2021 | 7     | 26  | 15   | 31     |
+| 4  | LGA          | LaGuardia Airport                       | New York City | 47 | 4                 | 8                      | 2021 | 7     | 30  | 9    | 46     |
+| 5  | DFS          | Dallas/Fort Worth International Airport | Dallas        | 48 | 5                 | 8                      | 2021 | 7     | 30  | 18   | 28     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 49 | 8                 | 6                      | 2021 | 7     | 27  | 8    | 5      |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 50 | 8                 | 6                      | 2021 | 7     | 26  | 9    | 16     |
+| 4  | LGA          | LaGuardia Airport                       | New York City | 51 | 4                 | 8                      | 2021 | 7     | 28  | 18   | 3      |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   | 52 | 3                 | 8                      | 2021 | 7     | 27  | 22   | 19     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 53 | 8                 | 9                      | 2021 | 7     | 29  | 15   | 20     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 54 | 8                 | 5                      | 2021 | 7     | 30  | 10   | 19     |
+| 8  | CSF          | Fiftyville Regional Airport             | Fiftyville    | 55 | 8                 | 4                      | 2021 | 7     | 26  | 21   | 44     |
+| 4  | LGA          | LaGuardia Airport                       | New York City | 56 | 4                 | 8                      | 2021 | 7     | 26  | 18   | 24     |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   | 57 | 3                 | 8                      | 2021 | 7     | 30  | 14   | 30     |
+| 3  | LAX          | Los Angeles International Airport       | Los Angeles   | 58 | 3                 | 8                      | 2021 | 7     | 30  | 11   | 35     |
++----+--------------+-----------------------------------------+---------------+----+-------------------+------------------------+------+-------+-----+------+--------+

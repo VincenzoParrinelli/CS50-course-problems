@@ -1,0 +1,4 @@
+Answer 1: I would characterize their audio aura using danceability, energy, loudness, speechiness, tempo and valence.
+
+Answer 2: By abstracting these values into something like spotify did by using different colors for different auras while mapping the
+values in answer 1 using a formula of some sort.

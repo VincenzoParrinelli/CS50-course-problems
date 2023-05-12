@@ -1,0 +1,17 @@
+{
+    "gitdoc.enabled": true,
+    "files.associations": {
+        "*.html": "html",
+        "ctype.h": "c",
+        "typeinfo": "c",
+        "random": "c",
+        "limits": "c",
+        "algorithm": "c",
+        "array": "c",
+        "deque": "c",
+        "string": "c",
+        "vector": "c",
+        "iterator": "c",
+        "string_view": "c"
+    }
+}
